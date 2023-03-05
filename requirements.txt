@@ -1,0 +1,6 @@
+pandas
+numpy
+notebook
+ipywidgets
+plotly
+scikit-learn
