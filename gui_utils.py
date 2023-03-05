@@ -485,7 +485,7 @@ class MultiObjectiveGUI:
                     iqr(self.X_for_pareto[:, i_met]) * np.ones(n_dp) / 10
                 )
 
-        self.ps, self.nps = gui_ic_select.obtain_discrete_pareto_optima(
+        self.ps, self.nps = MultiObjectiveGUI.obtain_discrete_pareto_optima(
             x_moo=self.X_for_pareto,
             error_bars=self.err_bars,
             use_errors=True,
