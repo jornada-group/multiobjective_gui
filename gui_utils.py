@@ -86,7 +86,7 @@ class MultiObjectiveGUI:
         self.checkbox_metrics: List[Checkbox] = []
         self.checkbox_pareto: List[Checkbox] = []
         self.checkbox_add_to_plot: List[Checkbox] = []
-        self.benchmark_mat = ["mp-30", "mp-33", "mp-219", "mp-7577"]
+        self.benchmark_mat = ["mp-30", "mp-33", "mp-54", "mp-23"] # "mp-219", "mp-7577", 
         #                      "mp-19210", "mp-998", "mp-12108", "mp-2078",
         #                      "mp-11531", "mp-1077077", "mp-12794", "mp-22746"
 
